@@ -1,1 +1,1 @@
-mongoexport  -h  db_mongo_nlp-0.uc.mobvoi-idc.com -u mobvoinlp -p geniusnlp -d nlp -c dialogue  -q '{timestamp:{$gte:ISODate("2019-03-19T00:00:00.159Z"), $lte:ISODate("2019-03-20T00:00:00.159Z")}, user:"animal_demo_project"}' -o  animal_demo_project.txt
+mongoexport  -h  db_mongo_nlp-0.uc.mobvoi-idc.com -u mobvoinlp -p geniusnlp -d nlp -c dialogue  -q '{timestamp:{$gte:ISODate("2019-03-20T00:00:00.159Z"), $lte:ISODate("2019-03-21T00:00:00.159Z")}, user:"animal_demo_project"}' -o  log_data20.txt
